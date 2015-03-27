@@ -2,10 +2,18 @@
   "name": "passport-fenixedu",
   "version": "0.1.0",
   "description": "FenixEdu authentication strategy for Passport.",
-  "keywords": ["passport", "fenix", "oauth", "oauth 2.0", "auth", "api", "authentication"],
+  "keywords": [
+    "passport",
+    "fenix",
+    "oauth",
+    "oauth 2.0",
+    "auth",
+    "api",
+    "authentication"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nunofmaia/passport-fenixedu.git"
+    "url": "https://github.com/duartebarbosa/passport-fenixedu"
   },
   "author": {
     "name": "Nuno Maia",
@@ -14,12 +22,12 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "passport-oauth": "^1.0.0",
+    "pkginfo": "0.2.x"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">= 0.8.0"
   }
 }
+
